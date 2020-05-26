@@ -1,46 +1,38 @@
-#Fortress
+# Fortress
+A tank game with curved terrains, dynamic explosions, and some of my original artwork. 
 
-This is a 2D tank game reproduced from an existing game Fortress II RED by Cosmos Entertainment. 
-The user is to defeat the opponent tank with his tank by moving around the map, aiming at an 
-angle, and shooting.Shooting and hitting near the enemy reduces the enemy's health points and 
-destroys the terrain as well.
+Defeat the AI opponent by moving up and down curved terrain, and aim to shoot. Shoot near the enemy, it will destroy the enemy's ground.
 
-##Original Artwork
-Source/Tanks/CannonBullet1.png
-Source/Maps/nightpoints.txt
-Source/Maps/skypoints.txt
-Source/Interface.png
-Source/Interface1.png
-Source/Emblem/Fire0.png
-Source/Emblem/Fire1.png
+Reproduced an existing game Fortress II RED by Cosmos Entertainment. 
 
-##Modified from Cosmos Entertainment
-Original: Cosmos Entertainment <http://fortress2.x2game.com/view/data/pansite.asp>
+https://youtu.be/q4EUqPmK18s
 
-src/Emblem/CurrentPlayerIcon.png
-src/Emblem/lostpic.jpg
-src/Emblem/mImage.png
-src/Emblem/sImage.png
-src/Emblem/wonPic.jpg
-src/Emblem/helpScreen.png
-src/Map/skyT.gif
-src/Map/nightT.gif
-src/Map/CannonTank1.gif
-src/Map/MissileTank1.gif
+## Curved Terrain
+Using predefined points on map, you can move along the segment between points. When shot bullet touches near the point, it creates more points along the destruction area.
 
+## Original Artwork
+Intuitive user interface and dynamic game experience
+`Source/Tanks/CannonBullet1.png, Source/Maps/nightpoints.txt, Source/Maps/skypoints.txt, Source/Interface.png, Source/Interface1.png, Source/Emblem/Fire0.png, Source/Emblem/Fire1.png`
+
+## Modified from Original game
+Improved artwork from the original game.
+
+`src/Emblem/CurrentPlayerIcon.png, src/Emblem/lostpic.jpg, src/Emblem/mImage.png, src/Emblem/sImage.png, src/Emblem/wonPic.jpg, src/Emblem/helpScreen.png, src/Map/skyT.gif, src/Map/nightT.gif, src/Map/CannonTank1.gif, src/Map/MissileTank1.gif
+Original: Cosmos Entertainment <http://fortress2.x2game.com/view/data/pansite.asp>`
+
+`Source/Map/skyB.jpg
 Original: <http://wallpapershacker.com/mountains_clouds_castles_flying_moon_art_hd-wallpaper-
-1312961/>
-Source/Map/skyB.jpg
+1312961/>`
 
-Original: <http://game.donga.com/images/gamegru_news/newsimage2/fortress20040504.jpg>
-Source/Emblem/intropage.jpg
+`Source/Emblem/intropage.jpg
+Original: <http://game.donga.com/images/gamegru_news/newsimage2/fortress20040504.jpg>`
 
-##Direct source
-Original: Cosmos Entertainment http://fortress2.x2game.com/view/data/pansite.asp
-Source/Tanks/CannonTank.gif
+## Used Directly from Original game
+`Source/Tanks/CannonTank.gif
 Source/Tanks/MissileTank.gif
+Original: Cosmos Entertainment http://fortress2.x2game.com/view/data/pansite.asp`
 
-##Requirements
+## Requirements
 Version: 4/28/2016
 System Requirement: 
     1) Run on Windows OS
