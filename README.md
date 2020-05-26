@@ -7,6 +7,10 @@ Reproduced an existing game Fortress II RED by Cosmos Entertainment.
 
 https://youtu.be/q4EUqPmK18s
 
+## Instruction
+To get started, download required files mentioned in `Requirements` and run
+`main.py`
+
 ## Curved Terrain
 Using predefined points on map, you can move along the segment between points. When shot bullet touches near the point, it creates more points along the destruction area.
 
@@ -34,11 +38,8 @@ Original: Cosmos Entertainment http://fortress2.x2game.com/view/data/pansite.asp
 
 ## Requirements
 Version: 4/28/2016
+
 System Requirement: 
-    1) Run on Windows OS
-    2) Python 3.4.4
-  Can be downloaded from https://www.python.org/downloads/
-    3) Pillow 3.0.0 Python Imaging Library(Fork)
-  Can be downloaded from https://pypi.python.org/pypi/Pillow/3.0.0
-Instructions:
-    1) Run main.py on Python 3.4.4
+- Run on Windows OS
+- Python 3.4.4
+- Pillow 3.0.0 Python Imaging Library(Fork), Can be downloaded from https://pypi.python.org/pypi/Pillow/3.0.0
